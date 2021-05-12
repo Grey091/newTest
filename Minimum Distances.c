@@ -16,13 +16,6 @@ char** split_string(char*);
 
 int parse_int(char*);
 
-/*
- * Complete the 'minimumDistances' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts INTEGER_ARRAY a as parameter.
- */
-
 int minimumDistances(int a_count, int* a) {
     int distance = 0, min = 1000;
     if(a_count == 1)
