@@ -15,34 +15,6 @@ char* rtrim(char*);
 
 int parse_int(char*);
 
-/*
- * Complete the 'timeInWords' function below.
- *
- * The function is expected to return a STRING.
- * The function accepts following parameters:
- *  1. INTEGER h
- *  2. INTEGER m
- */
-
-/*
- * To return the string from the function, you should either do static allocation or dynamic allocation
- *
- * For example,
- * char* return_string_using_static_allocation() {
- *     static char s[] = "static allocation of string";
- *
- *     return s;
- * }
- *
- * char* return_string_using_dynamic_allocation() {
- *     char* s = malloc(100 * sizeof(char));
- *
- *     s = "dynamic allocation of string";
- *
- *     return s;
- * }
- *
- */
 char* hourTryParse(int h)
 {
     char* s = malloc(10 * sizeof(char));
